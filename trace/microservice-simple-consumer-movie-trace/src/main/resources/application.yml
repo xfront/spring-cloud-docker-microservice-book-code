@@ -2,7 +2,7 @@ server:
   port: 8010
 spring:
   application:
-    name: microservice-consumer-movie
+    name: ms-movie
 logging:
   level:
     org.springframework.cloud.sleuth: DEBUG
