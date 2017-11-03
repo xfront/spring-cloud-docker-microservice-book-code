@@ -1,6 +1,6 @@
 package cn.eshop.cloud.config;
 
-import com.itmuch.cloud.config.RibbonConfiguration;
+import cn.eshop.config.RibbonConfiguration;
 import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.context.annotation.Configuration;
 

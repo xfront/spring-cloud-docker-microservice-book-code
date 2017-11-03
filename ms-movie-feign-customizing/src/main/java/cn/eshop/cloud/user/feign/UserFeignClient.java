@@ -1,7 +1,7 @@
 package cn.eshop.cloud.user.feign;
 
 import cn.eshop.cloud.user.entity.User;
-import com.itmuch.cloud.config.FeignConfiguration;
+import cn.eshop.config.FeignConfiguration;
 import feign.Param;
 import feign.RequestLine;
 import org.springframework.cloud.netflix.feign.FeignClient;

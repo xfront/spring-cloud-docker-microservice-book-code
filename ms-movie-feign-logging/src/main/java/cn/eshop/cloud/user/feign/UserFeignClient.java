@@ -1,7 +1,7 @@
 package cn.eshop.cloud.user.feign;
 
+import cn.eshop.cloud.config.FeignLogConfiguration;
 import cn.eshop.cloud.user.entity.User;
-import com.itmuch.cloud.config.FeignLogConfiguration;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

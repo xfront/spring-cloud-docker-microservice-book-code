@@ -17,7 +17,8 @@ logging:                                # 配置日志级别，让hibernate打�
     root: INFO
     org.hibernate: INFO
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
-    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+    org.springframework.cloud.sleuth: DEBUG
+    #org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
 eureka:
   client:
     serviceUrl:
